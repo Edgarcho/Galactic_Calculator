@@ -5,6 +5,7 @@ var source = require('vinyl-source-stream');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var utilities = require('gulp-util');
+var jshint = require('gulp-jshint');
 var buildProduction = utilities.env.production;
 
 gulp.task('jsBrowserify', ['concatInterface'], function(){
@@ -36,4 +37,10 @@ gulp.task("build", ['clean'], function(){
   } else {
     gulp.start('jsBrowserify');
   }
+});
+
+gulp.task('jshint', function(){
+  return gulp.src(['js/*.js'])
+    .pipe(jshint())
+    .pipe(jshint.reporter('default'));
 });

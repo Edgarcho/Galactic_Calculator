@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/moment/min/moment.min.js"></script>
+    <script type="text/javascript" src="build/js/app.js"></script>
+    <title>Galactic-Calculator</title>
+  </head>
+  <body>
+      <h1>Galactic-Calculator</h1>
+      <form id = "yearForm">
+        <label for = "age">Enter your age:</label>
+        <input id="age" type="number"><br>
+        <label for = "lifeExp">Enter Life Expectancy:</label>
+        <input id="lifeExp" type="number"><br>
+        <button type="submit">Submit</button>
+      </form>
+      <table>
+        <tr>
+          <th>Planet</th>
+          <th>Age on that planet<th>
+          <th>Life Expectancy<th>
+        </tr>
+        <div id = "result">
+        </div>
+      </table>
+    </body>
+</html>

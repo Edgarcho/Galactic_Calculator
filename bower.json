@@ -1,0 +1,22 @@
+{
+  "name": "galactic-calculator",
+  "description": "A web application that takes a user's age and return the age of a human in Mercury, Venus, Mars, and Jupiter years. It will also determine if the user's life expectancy has surpassed the average life expectancy based on the user's country and the planet's solar year.",
+  "main": "index.js",
+  "authors": [
+    "Edgar Hernandez <edgarchortiz@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "bootstrap": "^4.0.0",
+    "moment": "^2.20.1"
+  }
+}
