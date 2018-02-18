@@ -1,0 +1,11 @@
+{
+  "name": "galactic-calculator",
+  "version": "1.0.0",
+  "description": "A web application that takes a user's age and return the age of a human in Mercury, Venus, Mars, and Jupiter years. It will also determine if the user's life expectancy has surpassed the average life expectancy based on the user's country and the planet's solar year.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
