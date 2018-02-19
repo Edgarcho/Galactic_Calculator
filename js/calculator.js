@@ -1,13 +1,15 @@
-function Calculator(age){
-  this.age = age;
-}
-Calculator.prototype.convert = function(){
-  var mercury = 0.241;
-  var mercuryYear = this.age/mercury;
-  return Math.ceil(mercuryYear);
-};
+export class Calculator {
+  constructor(age) {
+    this.age = age;
+  }
 
-exports.calculatorModule = Calculator;
+  convert(){
+    let mercury = 0.241;
+    let mercuryYear = this.age/mercury;
+    return Math.ceil(mercuryYear);
+  }
+}
+
 
 /*
 //planet orbit for one Earth year
