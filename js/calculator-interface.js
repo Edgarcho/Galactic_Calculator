@@ -4,7 +4,7 @@ $(document).ready(function() {
   $("#yearForm").submit(function(event) {
     event.preventDefault();
     let userAge = parseInt($("#age").val());
-    let userlifeExp = $("#lifeExp").val();
+    let userlifeExp = parseInt($("#lifeExp").val());
     let userResult = new Calculator(userAge, userlifeExp);
     let finalResult= userResult.convert();
     let lifeExpResult= userResult.checkLifeExp();
