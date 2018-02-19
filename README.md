@@ -7,8 +7,6 @@
 ## Description
 A web application that takes a user's age and return the age of a human in Mercury, Venus, Mars, and Jupiter years. It will also determine if the user's life expectancy has surpassed the average life expectancy based on the user's country and the planet's solar year.
 
-
-
 ### Specs
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
@@ -21,6 +19,7 @@ A web application that takes a user's age and return the age of a human in Mercu
 | **Program alert user if they surpassed the average life expectancy.**|Earth Age:25|Life expectancy has be surpassed on planet Mercury|
 
 ### Future Additions
+Adding all the planets, including a space theme and adding a reset button.
 
 ## Setup/Installation Requirements
 
@@ -30,7 +29,7 @@ A web application that takes a user's age and return the age of a human in Mercu
 3. When you are ready to get the project up and running, use the following commands.<br>`$ gulp build` <br> `$ gulp serve`
 
 ## Known Bugs
-* No known bugs at this time.
+* Age input won't reset after the first run.
 
 ## Technologies Used
 * Javascript
