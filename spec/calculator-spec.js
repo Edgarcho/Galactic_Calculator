@@ -13,6 +13,7 @@ describe('Calculator', function(){
 
   it('should test whether calculator has check if you have surpassed the average life expectancy on each planet', function(){
     let userAge = new Calculator(25, 79);
+    console.log(userAge.checkLifeExp());
     expect(userAge.checkLifeExp()).toEqual(["Surpassed life expectancy","Still below life expectancy","Still below life expectancy","Still below life expectancy"]);
   })
 });
