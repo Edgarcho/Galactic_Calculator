@@ -4,9 +4,13 @@ export class Calculator {
   }
 
   convert(){
-    let mercury = 0.241;
-    let mercuryYear = this.age/mercury;
-    return Math.ceil(mercuryYear);
+    const planetsYear = [0.241, 0.615, 1.88, 11.86];
+    let humanYearForPlanets = [];
+    for (let i = 0; i <= planetsYear.length; i += 1){
+       let year = this.age/planetsYear[i];
+       humanYearForPlanets.push(Math.ceil(year));
+    }
+    return humanYearForPlanets[0];
   }
 }
 
