@@ -11,7 +11,7 @@ $(document).ready(function() {
     console.log(finalResult);
     console.log(planetsName);
     for(let i = 0; i < finalResult.length; i+=1){
-      $('#result').append("<tr><td>"finalResult[i]"<td></tr>");
+      $('#result').append("<tr><td>finalResult[i]<td></tr>");
     }
   });
 });

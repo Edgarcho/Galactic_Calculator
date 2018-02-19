@@ -16,22 +16,16 @@
       <form id="yearForm">
         <label for ="age">Enter your Age:</label>
         <input id="age" type="number"><br>
-        <label for ="lifeExp">Enter Life Expectancy:</label>
-        <input id="lifeExp" type="number"><br>
+        <select class ="form-control" id="lifeExp">
+          <option>United States</option>
+          <option>Japan</option>
+          <option>France</option>
+          <option>Mexico</option>
+          <option>Canada</option>
+        </select><br>
         <button class="btn btn-info" type="submit">Submit</button>
       </form></br>
-      <table class="table">
-        <thead>
-          <tr>
-            <th scope="col">Planets</th>
-            <th scope="col">Age</th>
-            <th scope="col">Life Expectancy</th>
-          </tr>
-        </thead>
-        <tbody>
-          <div id=result>
-          </div>
-        </tbody>
-      </table>
+      <div id="result">
+      </div>
     </body>
 </html>
