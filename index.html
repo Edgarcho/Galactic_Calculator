@@ -13,14 +13,25 @@
         <p class="lead">An application that determines a user’s age based on a planet’s solar years.</p>
       </div>
     </div>
-      <form id ="yearForm">
+      <form id="yearForm">
         <label for ="age">Enter your Age:</label>
         <input id="age" type="number"><br>
         <label for ="lifeExp">Enter Life Expectancy:</label>
         <input id="lifeExp" type="number"><br>
         <button class="btn btn-info" type="submit">Submit</button>
-      </form>
-      <div id ="result">
-      </div>
+      </form></br>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Planets</th>
+            <th scope="col">Age</th>
+            <th scope="col">Life Expectancy</th>
+          </tr>
+        </thead>
+        <tbody>
+          <div id=result>
+          </div>
+        </tbody>
+      </table>
     </body>
 </html>
